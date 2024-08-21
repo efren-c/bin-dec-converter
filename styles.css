@@ -34,7 +34,7 @@ h2 {
 .wrapper {
     display: flex;
     justify-content: space-between;
-    gap: 1.8em;
+    gap: 1em;
 }
 
 label {
@@ -53,6 +53,10 @@ input {
     border: 1.5px solid #43405c;
     color: #43405c;
     outline: none;
+}
+
+.input-last {
+    margin-top: 10px;
 }
 
 input:focus {
